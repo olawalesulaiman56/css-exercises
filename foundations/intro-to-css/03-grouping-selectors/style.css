@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.interior, .fashion {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.interior {
+    background-color: black;
+    color: white;
+}
+
+.fashion {
+   background-color: yellow; 
+}
