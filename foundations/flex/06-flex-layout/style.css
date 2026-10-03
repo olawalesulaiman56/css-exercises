@@ -5,22 +5,68 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+
 }
 
-img {
-  width: 600px;
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.content img {
+  width: 250px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
 }
 
 button {
   font-family: Roboto, sans-serif;
-  border: none;
+  border: 1px solid #eee;
   border-radius: 8px;
-  background: #eee;
+  padding: 8px 16px;
+  cursor: pointer;
 }
-
-input {
+/* Hope i'm trying */
+.input input{
   border: 1px solid #ddd;
-  border-radius: 16px;
+  border-radius: 10px;
   padding: 8px 24px;
-  width: 400px;
+  width: 250px;
+  margin-bottom: 16px;
 }
